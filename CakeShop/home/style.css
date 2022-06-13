@@ -1,0 +1,282 @@
+.PositionWrapper {
+    background-color: #f2e8e4;
+}
+
+
+
+.navbarColor{
+    background-color:#331a0d ;
+    color: white;
+}
+
+.navbar{
+  font-size: 1.5rem;
+}
+
+a{
+    color: white;
+}
+
+li>a{
+    color: white;
+}
+
+
+
+.PositionContainer {
+    margin: 7.5% auto;
+}
+
+.CarouselImageSize {
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+}
+
+
+
+
+.aboutUsImageSize {
+    width: 90%;
+    transform:  rotateY(45deg); 
+}
+
+.aboutUsTitle {
+    font-family: 'Nunito', sans-serif;
+
+    display: block;
+    color: #4E362A;
+
+    font-size: 90px;
+
+}
+
+.aboutUsSubTitle {
+    color: #333;
+    font-size: 23px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.aboutUsSubTitle::before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: green;
+    top: 140%
+}
+
+.aboutUsArticle {
+    display: block;
+    width: 100%;
+}
+
+.aboutUsBtn {
+    display: block;
+    border-radius: 50px;
+    width: 100px;
+
+}
+
+.productLogo{
+        display: block;
+        position: relative;
+        left: 50%;
+        width: 15%;
+        margin-left: -7.5%;
+    
+}
+
+
+.orderImageSize {
+    position: relative;
+    left: 110%;
+    width: 90%;
+    transform: rotateY(-45deg);
+}
+
+
+
+.productTitle {
+    font-weight: bold;
+    color: #333;
+    font-size: 23px;
+    text-align: center;
+}
+
+
+
+.orderTitle {
+    font-family: 'Nunito', sans-serif;
+
+    display: block;
+    color:  #4E362A;
+
+    font-size: 90px;
+
+}
+
+.orderSubTitle {
+    color: #333;
+    font-size: 23px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.orderSubTitle::before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: green;
+    top: 140%
+}
+
+.orderBtn {
+    display: block;
+    position: relative;    
+    border-radius: 50px;
+    width: 10%;
+
+}
+
+.orderText {
+    display: inline;
+    position: relative;  
+    right: 50%;  
+}
+
+@media (max-width:400px) {
+    .orderText {      
+        display: inline;
+        position:static;  
+        left: 0%;  
+    }
+
+    .orderImageSize {
+        position: relative;
+        left: 0%;
+        width: 90%;
+    }
+
+    .productLogo {
+        display: block;
+        position: relative;
+        left: 50%;
+        width: 50%;
+        margin-left: -25%;
+    }
+
+    .aboutUsImageSize {
+        width: 100%;
+    }
+
+    .aboutUsTitle {
+      font-family: 'Nunito', sans-serif;
+  
+      display: block;
+      color: #4E362A;
+  
+      font-size: 70px;
+  
+  }
+
+}
+
+@charset "UTF-8";
+/* CSS Document */
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+
+}
+
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+
+.navbar.navbar-expand-lg a:hover {
+color: grey;
+}
+.navbar.navbar-expand-lg li a{
+
+  color: white;
+  
+}
+.navbar.navbar-expand-lg{
+
+  background-color: #664b3d;
+  
+}
+
+.sidebar a.active {
+  background-color: #d9ba9c;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: grey;
+  color: white;
+}
+
+div.container.custom-container-width {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.container.custom-container-width {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+body {background-color: coral;}
+
+
+
+.card{
+  margin: 10px 10px 10px 10px;
+}
+
+
